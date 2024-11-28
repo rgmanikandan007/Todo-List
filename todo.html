@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
     <link rel="stylesheet" href="css/todo.css">
 </head>
+
 <body>
     <div class="todo">
         <div class="todo-container">
-            <input type="text" placeholder="Enter Task" id="inputData">
-            <button id="btnData">Submit</button>
+            <div style="display: flex;">
+                <input type="text" placeholder="Enter Task" id="inputData">
+                <button id="btnData">Submit</button>
+            </div>
             <ul id="taskList"></ul>
         </div>
         <div class="buttons">
-            <button id="allData">All</button>
+            <!-- <button id="allData">All</button> -->
             <button id="completedData">Completed</button>
-            <button id="activeData">Active</button>
+            <button id="activeData">Deleted</button>
         </div>
     </div>
 
     <script src="todo.js"></script>
 </body>
+
 </html>

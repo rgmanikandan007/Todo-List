@@ -1,12 +1,12 @@
 document.getElementById("btnData").addEventListener("click", function(){
     const inputDatas = document.getElementById("inputData");
-    const taskText = inputDatas.value.trim();  
+    const inputText = inputDatas.value.trim();
 
-    if(taskText !== ""){
+    if(inputText !== ""){
         const li = document.createElement("li");
         const deleteBtn = document.createElement("button");
 
-        li.innerHTML = taskText;
+        li.innerHTML = inputText;
         deleteBtn.innerHTML = "Remove";
 
         deleteBtn.addEventListener("click", function(){
@@ -15,12 +15,13 @@ document.getElementById("btnData").addEventListener("click", function(){
 
         li.appendChild(deleteBtn);
 
+
         const unOrderlist = document.getElementById("taskList");
         unOrderlist.appendChild(li);
 
         inputDatas.value = "";
 
-    } else{
+    } else {
         alert("Please Enter the Task");
     }
 
