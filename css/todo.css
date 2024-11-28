@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todo{
+    text-align: center;
+}
+.todo-container{
+    margin-top: 2rem;
+}
+.todo-container input{
+    padding: 10px 20px;
+}
+.todo-container button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.buttons button{
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
