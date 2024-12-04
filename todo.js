@@ -15,7 +15,6 @@ document.getElementById("btnData").addEventListener("click", function(){
 
         li.appendChild(deleteBtn);
 
-
         const unOrderlist = document.getElementById("taskList");
         unOrderlist.appendChild(li);
 
